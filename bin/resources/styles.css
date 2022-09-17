@@ -1,0 +1,123 @@
+
+
+Button {
+     -fx-background-color:black;
+     -fx-border-width: 2;
+     -fx-text-fill: FFFFFF;
+     -fx-font-size:20;
+     -fx-font-weight:bold;
+}
+
+
+
+Button:hover{
+     -fx-background-color:grey;
+     -fx-border-color: #FFFFFF;
+     
+}
+
+Button:pressed{
+     -fx-background-color:#6200EE3F;
+}
+
+
+VBox{
+	-fx-background-color:#212121;
+}
+
+
+/*Table View Config*/
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view .column-header .label{
+	-fx-font-weight: bold; 
+	-fx-alignment: center-left;
+	-fx-text-fill: #FFFFFF;
+}
+
+.table-view .column-header {
+	-fx-background-color: black;
+	-fx-border-color: grey;
+}
+
+.table-row-cell:filled {
+	-fx-background-color: gray;
+	-fx-border-color: transparent;
+	-fx-text-fill: #FFFFFF;
+}
+
+.table-row-cell:filled:selected {
+	-fx-background-color: black;
+}
+
+.table-view .cell{
+   -fx-cell-size: 35;
+  -fx-alignment: center-left;
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-text-fill: lightgray;
+  -fx-alignment: CENTER_LEFT;
+  -fx-font-size: 1.3em;
+   
+}
+
+.table-view .cell:selected{
+  -fx-alignment: center-left;
+  -fx-background-color: black;
+  -fx-border-color: #FFFFFF;
+  -fx-text-fill: lightgray;
+  -fx-alignment: CENTER_LEFT;
+   
+}
+
+
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive( black,80%);
+
+	
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( black,90%);
+
+}
+
+
+
+
+
+.label{
+	-fx-text-fill: FFFFFF;
+	-fx-font-weight: bold; 
+	
+}
+
+.text-field{
+	-fx-border-color: #000000;
+}
+
+
+
+
+
+
+
+#back{
+	-fx-background-color:crimson;
+}
+
+
